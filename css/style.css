@@ -9,7 +9,9 @@ body {
 }
 .menu__bar {
   background-color: var(--color-black);
-  width: 100%;
+  /* width: 100%;
+   */
+  max-width: 1700px;
   height: 80px;
   display: flex;
   justify-content: space-between;
@@ -26,7 +28,7 @@ body {
 .menu__bar ul {
   list-style-type: none;
   display: flex;
-  width: 37%;
+  width: 38%;
 }
 .menu__bar ul li {
   padding: 10px 30px;
